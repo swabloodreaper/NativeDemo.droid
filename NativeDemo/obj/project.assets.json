@@ -184,11 +184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\swapnilk.SUCCESSIVE\\Source\\Repos\\NativeDemo.droid\\NativeDemo\\NativeDemo.csproj",
+      "projectUniqueName": "C:\\Git\\NativeDemo.droid\\NativeDemo\\NativeDemo.csproj",
       "projectName": "NativeDemo",
-      "projectPath": "C:\\Users\\swapnilk.SUCCESSIVE\\Source\\Repos\\NativeDemo.droid\\NativeDemo\\NativeDemo.csproj",
+      "projectPath": "C:\\Git\\NativeDemo.droid\\NativeDemo\\NativeDemo.csproj",
       "packagesPath": "C:\\Users\\swapnilk.SUCCESSIVE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\swapnilk.SUCCESSIVE\\Source\\Repos\\NativeDemo.droid\\NativeDemo\\obj\\",
+      "outputPath": "C:\\Git\\NativeDemo.droid\\NativeDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

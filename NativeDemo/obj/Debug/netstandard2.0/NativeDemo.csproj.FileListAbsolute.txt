@@ -7,3 +7,12 @@ C:\Users\swapnilk.SUCCESSIVE\Source\Repos\NativeDemo.droid\NativeDemo\obj\Debug\
 C:\Users\swapnilk.SUCCESSIVE\Source\Repos\NativeDemo.droid\NativeDemo\obj\Debug\netstandard2.0\NativeDemo.AssemblyInfo.cs
 C:\Users\swapnilk.SUCCESSIVE\Source\Repos\NativeDemo.droid\NativeDemo\obj\Debug\netstandard2.0\NativeDemo.dll
 C:\Users\swapnilk.SUCCESSIVE\Source\Repos\NativeDemo.droid\NativeDemo\obj\Debug\netstandard2.0\NativeDemo.pdb
+C:\Git\NativeDemo.droid\NativeDemo\bin\Debug\netstandard2.0\NativeDemo.deps.json
+C:\Git\NativeDemo.droid\NativeDemo\bin\Debug\netstandard2.0\NativeDemo.dll
+C:\Git\NativeDemo.droid\NativeDemo\bin\Debug\netstandard2.0\NativeDemo.pdb
+C:\Git\NativeDemo.droid\NativeDemo\obj\Debug\netstandard2.0\NativeDemo.csprojResolveAssemblyReference.cache
+C:\Git\NativeDemo.droid\NativeDemo\obj\Debug\netstandard2.0\NativeDemo.csproj.CoreCompileInputs.cache
+C:\Git\NativeDemo.droid\NativeDemo\obj\Debug\netstandard2.0\NativeDemo.AssemblyInfoInputs.cache
+C:\Git\NativeDemo.droid\NativeDemo\obj\Debug\netstandard2.0\NativeDemo.AssemblyInfo.cs
+C:\Git\NativeDemo.droid\NativeDemo\obj\Debug\netstandard2.0\NativeDemo.dll
+C:\Git\NativeDemo.droid\NativeDemo\obj\Debug\netstandard2.0\NativeDemo.pdb
