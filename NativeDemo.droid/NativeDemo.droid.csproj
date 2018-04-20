@@ -110,6 +110,7 @@
     <Compile Include="Resources\Activities\BaseActivity.cs" />
     <Compile Include="Resources\Activities\Fragments\Fragment_insideTab.cs" />
     <Compile Include="Resources\Activities\Fragments\List_fragment.cs" />
+    <Compile Include="Resources\Activities\Fragments\MainDrawerFragment.cs" />
     <Compile Include="Resources\Activities\ListViewActivity.cs" />
     <Compile Include="Resources\Activities\LoginActivity.cs" />
     <Compile Include="Resources\Activities\PaginationListViewActivity.cs" />
@@ -117,6 +118,7 @@
     <Compile Include="Resources\Activities\RegisterActivity.cs" />
     <Compile Include="Resources\Activities\SplashActivity.cs" />
     <Compile Include="Resources\Adaptor\CustomListAdapter.cs" />
+    <Compile Include="Resources\Adaptor\CustomViewpagerAdapter.cs" />
     <Compile Include="Resources\Adaptor\ExpandableListAdapter.cs" />
     <Compile Include="Resources\Adaptor\ExpandedMenuModel.cs" />
     <Compile Include="Resources\Adaptor\MyCustomListAdapter.cs" />

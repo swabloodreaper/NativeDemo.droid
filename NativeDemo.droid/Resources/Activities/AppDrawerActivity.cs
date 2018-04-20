@@ -13,6 +13,7 @@ using System.Linq;
 using Android.Content;
 using Android.Preferences;
 using NativeDemo.droid.Resources.Activities.Fragments;
+using Android.Support.V4.View;
 
 namespace NativeDemo.droid.Resources.Activities
 {
@@ -30,52 +31,50 @@ namespace NativeDemo.droid.Resources.Activities
             SetContentView(Resource.Layout.AppdrawerLayout);
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
-
             drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
-            
             var drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, Resource.String.drawer_open, Resource.String.drawer_close);
-
             drawerLayout.AddDrawerListener(drawerToggle);
-
-
-
             drawerToggle.SyncState();
-
-
-
             SupportActionBar.Title = "Hello Native App";
-
-
-
             ExpandableListView expandableList = FindViewById<ExpandableListView>(Resource.Id.navigationmenu);
             NavigationView navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
-
-
             expandableList.ChildClick += ExpandableList_ChildClick;
-
-
-
             navigationView.NavigationItemSelected += OnNavigationItemSelected;
-
-
             PrepareListData();
             menuAdapter = new ExpandableListAdapter(this, listDataHeader, listDataChild, expandableList);
-
-            // setting list adapter
             expandableList.SetAdapter(menuAdapter);
+            //view pager
+           var viewPager = FindViewById<ViewPager>(Resource.Id.drawer_viewPager);
+            setupViewPager(viewPager);
+            var tabLayout = FindViewById<TabLayout>(Resource.Id.drawer_tabLayout);
+            tabLayout.SetupWithViewPager(viewPager);
+          //  tabLayout.AddTab(tabLayout.NewTab().SetText("Hello1"));
+           // tabLayout.AddTab(tabLayout.NewTab().SetText("Hello2"));
+           // tabLayout.AddTab(tabLayout.NewTab().SetText("hello3"));
 
+
+
+        }
+
+        private void setupViewPager(ViewPager viewpager)
+        {
+            var adapter = new CustomViewpagerAdapter(SupportFragmentManager);
+
+            adapter.AddFragment(new MainDrawerFragment(0), "First");
+            adapter.AddFragment(new MainDrawerFragment(1), "Second");
+            adapter.AddFragment(new MainDrawerFragment(2), "Second");
+
+             viewpager.Adapter = adapter;
+            viewpager.Adapter.NotifyDataSetChanged();
+
+            
         }
 
         private void displaySelectedScreen()
         {
             ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
             var shared_child = prefs.GetString("shared_child", "null");
-
-
-
             Fragment fragment = new List_fragment(shared_child);
-
-
             if (fragment != null)
             {
                

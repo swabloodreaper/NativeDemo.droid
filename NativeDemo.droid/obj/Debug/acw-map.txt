@@ -6,6 +6,10 @@ NativeDemo.droid.Resources.Adaptor.CustomListAdapter, NativeDemo.droid;md54ba98e
 NativeDemo.droid.Resources.Adaptor.CustomListAdapter, NativeDemo.droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md54ba98e3de62484913b626d4f740693d4.CustomListAdapter
 NativeDemo.droid.Resources.Adaptor.CustomListAdapter;md54ba98e3de62484913b626d4f740693d4.CustomListAdapter
 nativedemo.droid.resources.adaptor.CustomListAdapter;md54ba98e3de62484913b626d4f740693d4.CustomListAdapter
+NativeDemo.droid.Resources.Adaptor.CustomViewpagerAdapter, NativeDemo.droid;md54ba98e3de62484913b626d4f740693d4.CustomViewpagerAdapter
+NativeDemo.droid.Resources.Adaptor.CustomViewpagerAdapter, NativeDemo.droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md54ba98e3de62484913b626d4f740693d4.CustomViewpagerAdapter
+NativeDemo.droid.Resources.Adaptor.CustomViewpagerAdapter;md54ba98e3de62484913b626d4f740693d4.CustomViewpagerAdapter
+nativedemo.droid.resources.adaptor.CustomViewpagerAdapter;md54ba98e3de62484913b626d4f740693d4.CustomViewpagerAdapter
 NativeDemo.droid.Resources.Adaptor.ExpandableListAdapter, NativeDemo.droid;md54ba98e3de62484913b626d4f740693d4.ExpandableListAdapter
 NativeDemo.droid.Resources.Adaptor.ExpandableListAdapter, NativeDemo.droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md54ba98e3de62484913b626d4f740693d4.ExpandableListAdapter
 NativeDemo.droid.Resources.Adaptor.ExpandableListAdapter;md54ba98e3de62484913b626d4f740693d4.ExpandableListAdapter
@@ -62,6 +66,10 @@ NativeDemo.droid.Resources.Activities.Fragments.List_fragment, NativeDemo.droid;
 NativeDemo.droid.Resources.Activities.Fragments.List_fragment, NativeDemo.droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56c66373afd78af8b535818b69329080c.List_fragment
 NativeDemo.droid.Resources.Activities.Fragments.List_fragment;md56c66373afd78af8b535818b69329080c.List_fragment
 nativedemo.droid.resources.activities.fragments.List_fragment;md56c66373afd78af8b535818b69329080c.List_fragment
+NativeDemo.droid.Resources.Activities.Fragments.MainDrawerFragment, NativeDemo.droid;md56c66373afd78af8b535818b69329080c.MainDrawerFragment
+NativeDemo.droid.Resources.Activities.Fragments.MainDrawerFragment, NativeDemo.droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56c66373afd78af8b535818b69329080c.MainDrawerFragment
+NativeDemo.droid.Resources.Activities.Fragments.MainDrawerFragment;md56c66373afd78af8b535818b69329080c.MainDrawerFragment
+nativedemo.droid.resources.activities.fragments.MainDrawerFragment;md56c66373afd78af8b535818b69329080c.MainDrawerFragment
 Refractored.Controls.CircleImageView, Refractored.Controls.CircleImageView;md5eae3ad6ed1b7f6713979aa7524906105.CircleImageView
 Refractored.Controls.CircleImageView, Refractored.Controls.CircleImageView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5eae3ad6ed1b7f6713979aa7524906105.CircleImageView
 Refractored.Controls.CircleImageView;md5eae3ad6ed1b7f6713979aa7524906105.CircleImageView
