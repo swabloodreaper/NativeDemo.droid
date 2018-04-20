@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:showDividers="middle"
+    android:divider="@drawable/empty_tall_divider"
+    android:background="#ffffff">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:paddingTop="40dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="40dp">
+        <ImageView
+            android:src="@drawable/soundcloud"
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:background="@drawable/circular"
+            android:layout_gravity="center_horizontal" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/imagetext"
+            android:paddingBottom="5dp">
+        <!--Email-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+            <!-- INPUT -->
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/log_email"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:layout_toRightOf="@+id/icon_email"
+                    android:hint="Email"
+                    android:textColor="@android:color/background_dark"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:backgroundTint="@android:color/darker_gray" />
+            <!-- ICON -->
+                <ImageView
+                    android:padding="3dp"
+                    android:id="@+id/icon_email"
+                    android:src="@drawable/email"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+            </RelativeLayout>
+        <!--Password-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+            <!-- INPUT -->
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/log_password"
+                    android:hint="Password"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:layout_toRightOf="@+id/icon_pass"
+                    android:textColor="@android:color/background_dark"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:backgroundTint="@android:color/darker_gray" />
+            <!-- ICON -->
+                <ImageView
+                    android:padding="3dp"
+                    android:id="@+id/icon_pass"
+                    android:src="@drawable/key"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <Button
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/log_loginButton"
+            android:background="@drawable/mybutton"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|bottom"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|bottom"
+        android:id="@+id/linearLayout1"
+        android:paddingBottom="10dp">
+        <TextView
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:text="Are you a new user?"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="bottom"
+            android:layout_marginTop="0.0dp" />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Register"
+            android:background="#00000000"
+            android:textColor="#45cef7"
+            android:textAllCaps="false"
+            android:id="@+id/log_register"
+            android:gravity="bottom" />
+    </LinearLayout>
+</LinearLayout>

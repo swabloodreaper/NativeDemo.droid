@@ -1,0 +1,2 @@
+android.app.Application
+NativeDemo.droid.NativeDemo.droid
