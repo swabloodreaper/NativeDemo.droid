@@ -60,9 +60,9 @@ namespace NativeDemo.droid.Resources.Activities
         {
             var adapter = new CustomViewpagerAdapter(SupportFragmentManager);
 
-            adapter.AddFragment(new MainDrawerFragment(0), "First");
-            adapter.AddFragment(new MainDrawerFragment(1), "Second");
-            adapter.AddFragment(new MainDrawerFragment(2), "Second");
+            adapter.AddFragment(new MainDrawerFragment(0),"First");
+            adapter.AddFragment(new MainDrawerFragment(1),"Second");
+            adapter.AddFragment(new MainDrawerFragment(2),"Third");
 
              viewpager.Adapter = adapter;
             viewpager.Adapter.NotifyDataSetChanged();
