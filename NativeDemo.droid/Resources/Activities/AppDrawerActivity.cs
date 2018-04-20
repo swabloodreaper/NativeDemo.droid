@@ -48,10 +48,7 @@ namespace NativeDemo.droid.Resources.Activities
             setupViewPager(viewPager);
             var tabLayout = FindViewById<TabLayout>(Resource.Id.drawer_tabLayout);
             tabLayout.SetupWithViewPager(viewPager);
-          //  tabLayout.AddTab(tabLayout.NewTab().SetText("Hello1"));
-           // tabLayout.AddTab(tabLayout.NewTab().SetText("Hello2"));
-           // tabLayout.AddTab(tabLayout.NewTab().SetText("hello3"));
-
+      
 
 
         }
