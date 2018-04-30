@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.Graphics.Drawables;
@@ -48,8 +47,6 @@ namespace NativeDemo.droid.Resources.Activities
             Cancel.Click += OnCancel;
             var Login = FindViewById<Button>(Resource.Id.reg_login);
             Login.Click += Login_Click;
-
-
             Email = FindViewById<EditText>(Resource.Id.reg_registerEmail);
             Email.FocusChange += Email_FocusChange;
             Email.TextChanged += Entry_TextChanged;
@@ -70,14 +67,12 @@ namespace NativeDemo.droid.Resources.Activities
             DobPicker = FindViewById<DatePicker>(Resource.Id.reg_dobPicker);
             Dob = FindViewById<EditText>(Resource.Id.reg_dob);
             Dob.SetOnTouchListener(this);
-
-
             #region spinner city
             spinnerCity = FindViewById<Spinner>(Resource.Id.reg_spinnerCity);
             spinnerCity.ItemSelected += SpinnerCity_ItemSelected;
-
+            
             var adapter = ArrayAdapter.CreateFromResource(
-            this, Resource.Array.spinnerCity, Android.Resource.Layout.SimpleSpinnerItem);
+            this, Resource.Array.spinnerCity, Resource.Layout.spinner_item);
 
             adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
             spinnerCity.Adapter = adapter;
@@ -86,7 +81,9 @@ namespace NativeDemo.droid.Resources.Activities
 
         private void SpinnerCity_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         {
+
             Spinner spinner = (Spinner)sender;
+      
 
           //  string toast = string.Format("The City is {0}", spinner.GetItemAtPosition(e.Position));
          //   Toast.MakeText(this, toast, ToastLength.Long).Show();

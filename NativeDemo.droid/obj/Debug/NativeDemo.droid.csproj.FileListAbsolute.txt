@@ -139,7 +139,6 @@ C:\Users\swapnilk.SUCCESSIVE\Source\Repos\NativeDemo.droid\NativeDemo.droid\obj\
 C:\Users\swapnilk.SUCCESSIVE\Source\Repos\NativeDemo.droid\NativeDemo.droid\obj\Debug\android\assets\System.Web.Services.pdb
 C:\Users\swapnilk.SUCCESSIVE\Source\Repos\NativeDemo.droid\NativeDemo.droid\obj\Debug\android\assets\System.Xml.Linq.pdb
 C:\Users\swapnilk.SUCCESSIVE\Source\Repos\NativeDemo.droid\NativeDemo.droid\obj\Debug\android\assets\System.Xml.pdb
-C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\System.pdb
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\NativeDemo.droid.dll
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\NativeDemo.droid.pdb
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\NativeDemo.droid.NativeDemo.droid.apk
@@ -180,6 +179,7 @@ C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\layout\list_header.xml
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\layout\list_submenu.xml
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\layout\list_fragment.xml
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\layout\fragment_insidetab.xml
+C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\layout\spinner_item.xml
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\layout\main.xml
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\values\strings.xml
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\drawable\mybutton.xml
@@ -226,6 +226,7 @@ C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\NativeDemo.droid.dll
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\Mono.Android.pdb
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\mscorlib.pdb
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\System.Core.pdb
+C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\System.pdb
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\System.Xml.pdb
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\System.Net.Http.pdb
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\System.Runtime.Serialization.pdb

@@ -2872,7 +2872,7 @@ containing a value of this type.
         public static final int log_password=0x7f070095;
         public static final int log_register=0x7f070099;
         public static final int main_toolbar=0x7f07009a;
-        public static final int masked=0x7f0700e3;
+        public static final int masked=0x7f0700e4;
         public static final int media_actions=0x7f0700a2;
         public static final int middle=0x7f070022;
         public static final int mini=0x7f07003e;
@@ -2923,10 +2923,10 @@ containing a value of this type.
         public static final int right=0x7f070035;
         public static final int right_icon=0x7f0700aa;
         public static final int right_side=0x7f0700a6;
-        public static final int row_Layout=0x7f0700de;
-        public static final int row_emailTextView=0x7f0700e1;
-        public static final int row_nameTextView=0x7f0700e0;
-        public static final int row_photoImageView=0x7f0700df;
+        public static final int row_Layout=0x7f0700df;
+        public static final int row_emailTextView=0x7f0700e2;
+        public static final int row_nameTextView=0x7f0700e1;
+        public static final int row_photoImageView=0x7f0700e0;
         public static final int screen=0x7f07001a;
         public static final int scroll=0x7f07002d;
         public static final int scrollIndicatorDown=0x7f070053;
@@ -2953,6 +2953,7 @@ containing a value of this type.
         public static final int snackbar_text=0x7f070081;
         public static final int snap=0x7f07002e;
         public static final int spacer=0x7f07004c;
+        public static final int spinner_item=0x7f0700db;
         public static final int split_action_bar=0x7f070008;
         public static final int src_atop=0x7f07001b;
         public static final int src_in=0x7f07001c;
@@ -2976,9 +2977,9 @@ containing a value of this type.
         public static final int title=0x7f07004a;
         public static final int titleDividerNoCustom=0x7f070059;
         public static final int title_template=0x7f070057;
-        public static final int tool_back=0x7f0700db;
-        public static final int tool_logout=0x7f0700dd;
-        public static final int tool_user=0x7f0700dc;
+        public static final int tool_back=0x7f0700dc;
+        public static final int tool_logout=0x7f0700de;
+        public static final int tool_user=0x7f0700dd;
         public static final int toolbar=0x7f070073;
         public static final int top=0x7f070029;
         public static final int topPanel=0x7f070056;
@@ -2989,7 +2990,7 @@ containing a value of this type.
         public static final int useLogo=0x7f070018;
         public static final int viewPager1=0x7f07008d;
         public static final int view_offset_helper=0x7f07000e;
-        public static final int visible=0x7f0700e2;
+        public static final int visible=0x7f0700e3;
         public static final int withText=0x7f070027;
         public static final int wrap_content=0x7f07001f;
     }
@@ -3076,9 +3077,10 @@ containing a value of this type.
         public static final int select_dialog_item_material=0x7f030044;
         public static final int select_dialog_multichoice_material=0x7f030045;
         public static final int select_dialog_singlechoice_material=0x7f030046;
-        public static final int support_simple_spinner_dropdown_item=0x7f030047;
-        public static final int toolbar=0x7f030048;
-        public static final int userrow=0x7f030049;
+        public static final int spinner_item=0x7f030047;
+        public static final int support_simple_spinner_dropdown_item=0x7f030048;
+        public static final int toolbar=0x7f030049;
+        public static final int userrow=0x7f03004a;
     }
     public static final class string {
         public static final int Hello=0x7f08002a;

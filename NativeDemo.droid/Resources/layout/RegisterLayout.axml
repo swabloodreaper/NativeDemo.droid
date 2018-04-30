@@ -121,7 +121,7 @@
                     <Spinner
                         android:layout_toRightOf="@+id/icon_city"
                         android:id="@+id/reg_spinnerCity"
-                        android:textColor="#000000"  
+                        android:textColor="#000000"
                         android:prompt="@string/spinnerCity_prompt"
                         style="@style/Widget.AppCompat.Spinner.Underlined"
                         android:layout_width="match_parent"
@@ -129,7 +129,8 @@
                         android:spinnerMode="dialog"
                         android:backgroundTint="#ffa9a9a9"
                         android:soundEffectsEnabled="false"
-                        android:foregroundTint="#ffa9a9a9" />
+                        android:foregroundTint="#ffa9a9a9"
+                        android:theme="@style/MyTheme" />
                     <ImageView
                         android:padding="3dp"
                         android:id="@+id/icon_city"

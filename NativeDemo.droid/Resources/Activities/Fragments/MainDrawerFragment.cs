@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -18,12 +17,9 @@ namespace NativeDemo.droid.Resources.Activities.Fragments
         int imageId;
         public MainDrawerFragment(int imageId) {
             this.imageId = imageId;
-
                 }
         public override void OnCreate(Bundle savedInstanceState)
         {
-
-
             base.OnCreate(savedInstanceState);
         }
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)

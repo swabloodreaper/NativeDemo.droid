@@ -2872,7 +2872,7 @@ containing a value of this type.
         public static int log_password=0x7f070095;
         public static int log_register=0x7f070099;
         public static int main_toolbar=0x7f07009a;
-        public static int masked=0x7f0700e3;
+        public static int masked=0x7f0700e4;
         public static int media_actions=0x7f0700a2;
         public static int middle=0x7f070022;
         public static int mini=0x7f07003e;
@@ -2923,10 +2923,10 @@ containing a value of this type.
         public static int right=0x7f070035;
         public static int right_icon=0x7f0700aa;
         public static int right_side=0x7f0700a6;
-        public static int row_Layout=0x7f0700de;
-        public static int row_emailTextView=0x7f0700e1;
-        public static int row_nameTextView=0x7f0700e0;
-        public static int row_photoImageView=0x7f0700df;
+        public static int row_Layout=0x7f0700df;
+        public static int row_emailTextView=0x7f0700e2;
+        public static int row_nameTextView=0x7f0700e1;
+        public static int row_photoImageView=0x7f0700e0;
         public static int screen=0x7f07001a;
         public static int scroll=0x7f07002d;
         public static int scrollIndicatorDown=0x7f070053;
@@ -2953,6 +2953,7 @@ containing a value of this type.
         public static int snackbar_text=0x7f070081;
         public static int snap=0x7f07002e;
         public static int spacer=0x7f07004c;
+        public static int spinner_item=0x7f0700db;
         public static int split_action_bar=0x7f070008;
         public static int src_atop=0x7f07001b;
         public static int src_in=0x7f07001c;
@@ -2976,9 +2977,9 @@ containing a value of this type.
         public static int title=0x7f07004a;
         public static int titleDividerNoCustom=0x7f070059;
         public static int title_template=0x7f070057;
-        public static int tool_back=0x7f0700db;
-        public static int tool_logout=0x7f0700dd;
-        public static int tool_user=0x7f0700dc;
+        public static int tool_back=0x7f0700dc;
+        public static int tool_logout=0x7f0700de;
+        public static int tool_user=0x7f0700dd;
         public static int toolbar=0x7f070073;
         public static int top=0x7f070029;
         public static int topPanel=0x7f070056;
@@ -2989,7 +2990,7 @@ containing a value of this type.
         public static int useLogo=0x7f070018;
         public static int viewPager1=0x7f07008d;
         public static int view_offset_helper=0x7f07000e;
-        public static int visible=0x7f0700e2;
+        public static int visible=0x7f0700e3;
         public static int withText=0x7f070027;
         public static int wrap_content=0x7f07001f;
     }
@@ -3076,9 +3077,10 @@ containing a value of this type.
         public static int select_dialog_item_material=0x7f030044;
         public static int select_dialog_multichoice_material=0x7f030045;
         public static int select_dialog_singlechoice_material=0x7f030046;
-        public static int support_simple_spinner_dropdown_item=0x7f030047;
-        public static int toolbar=0x7f030048;
-        public static int userrow=0x7f030049;
+        public static int spinner_item=0x7f030047;
+        public static int support_simple_spinner_dropdown_item=0x7f030048;
+        public static int toolbar=0x7f030049;
+        public static int userrow=0x7f03004a;
     }
     public static final class string {
         public static int Hello=0x7f08002a;

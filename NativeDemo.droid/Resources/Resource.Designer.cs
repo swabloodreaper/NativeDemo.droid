@@ -2649,8 +2649,8 @@ namespace NativeDemo.droid
 			// aapt resource value: 0x7f07009a
 			public const int main_toolbar = 2131165338;
 			
-			// aapt resource value: 0x7f0700e3
-			public const int masked = 2131165411;
+			// aapt resource value: 0x7f0700e4
+			public const int masked = 2131165412;
 			
 			// aapt resource value: 0x7f0700a2
 			public const int media_actions = 2131165346;
@@ -2802,17 +2802,17 @@ namespace NativeDemo.droid
 			// aapt resource value: 0x7f0700a6
 			public const int right_side = 2131165350;
 			
-			// aapt resource value: 0x7f0700de
-			public const int row_Layout = 2131165406;
+			// aapt resource value: 0x7f0700df
+			public const int row_Layout = 2131165407;
+			
+			// aapt resource value: 0x7f0700e2
+			public const int row_emailTextView = 2131165410;
 			
 			// aapt resource value: 0x7f0700e1
-			public const int row_emailTextView = 2131165409;
+			public const int row_nameTextView = 2131165409;
 			
 			// aapt resource value: 0x7f0700e0
-			public const int row_nameTextView = 2131165408;
-			
-			// aapt resource value: 0x7f0700df
-			public const int row_photoImageView = 2131165407;
+			public const int row_photoImageView = 2131165408;
 			
 			// aapt resource value: 0x7f07001a
 			public const int screen = 2131165210;
@@ -2892,6 +2892,9 @@ namespace NativeDemo.droid
 			// aapt resource value: 0x7f07004c
 			public const int spacer = 2131165260;
 			
+			// aapt resource value: 0x7f0700db
+			public const int spinner_item = 2131165403;
+			
 			// aapt resource value: 0x7f070008
 			public const int split_action_bar = 2131165192;
 			
@@ -2961,14 +2964,14 @@ namespace NativeDemo.droid
 			// aapt resource value: 0x7f070057
 			public const int title_template = 2131165271;
 			
-			// aapt resource value: 0x7f0700db
-			public const int tool_back = 2131165403;
+			// aapt resource value: 0x7f0700dc
+			public const int tool_back = 2131165404;
+			
+			// aapt resource value: 0x7f0700de
+			public const int tool_logout = 2131165406;
 			
 			// aapt resource value: 0x7f0700dd
-			public const int tool_logout = 2131165405;
-			
-			// aapt resource value: 0x7f0700dc
-			public const int tool_user = 2131165404;
+			public const int tool_user = 2131165405;
 			
 			// aapt resource value: 0x7f070073
 			public const int toolbar = 2131165299;
@@ -3000,8 +3003,8 @@ namespace NativeDemo.droid
 			// aapt resource value: 0x7f07000e
 			public const int view_offset_helper = 2131165198;
 			
-			// aapt resource value: 0x7f0700e2
-			public const int visible = 2131165410;
+			// aapt resource value: 0x7f0700e3
+			public const int visible = 2131165411;
 			
 			// aapt resource value: 0x7f070027
 			public const int withText = 2131165223;
@@ -3276,13 +3279,16 @@ namespace NativeDemo.droid
 			public const int select_dialog_singlechoice_material = 2130903110;
 			
 			// aapt resource value: 0x7f030047
-			public const int support_simple_spinner_dropdown_item = 2130903111;
+			public const int spinner_item = 2130903111;
 			
 			// aapt resource value: 0x7f030048
-			public const int Toolbar = 2130903112;
+			public const int support_simple_spinner_dropdown_item = 2130903112;
 			
 			// aapt resource value: 0x7f030049
-			public const int UserRow = 2130903113;
+			public const int Toolbar = 2130903113;
+			
+			// aapt resource value: 0x7f03004a
+			public const int UserRow = 2130903114;
 			
 			static Layout()
 			{

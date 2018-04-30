@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -17,7 +16,6 @@ namespace NativeDemo.droid.Resources.Adaptor
     {
         List<Android.Support.V4.App.Fragment> fragments = new List<Android.Support.V4.App.Fragment>();
         List<string> fragmentTitles = new List<string>();
-
         public CustomViewpagerAdapter(Android.Support.V4.App.FragmentManager fm) : base(fm) { }
 
         public void AddFragment(Android.Support.V4.App.Fragment fragment, String title)
@@ -32,17 +30,13 @@ namespace NativeDemo.droid.Resources.Adaptor
                 return fragments.Count;
             }
         }
-
         public override Android.Support.V4.App.Fragment GetItem(int position)
         {
             return fragments[position];
         }
-
         public override Java.Lang.ICharSequence GetPageTitleFormatted(int position)
         {
             return new Java.Lang.String(fragmentTitles[position]);
         }
     }
-
-   
 }
