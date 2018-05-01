@@ -56,9 +56,6 @@
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="JazzyViewPager">
-      <HintPath>..\..\..\Users\swapnilk.SUCCESSIVE\Source\Repos\TinderDemo\TinderDemo\Lib\JazzyViewPager.dll</HintPath>
-    </Reference>
     <Reference Include="Refractored.Controls.CircleImageView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Refractored.Controls.CircleImageView.1.0.1\lib\MonoAndroid10\Refractored.Controls.CircleImageView.dll</HintPath>
     </Reference>
@@ -125,7 +122,6 @@
     <Compile Include="Resources\Adaptor\ExpandableListAdapter.cs" />
     <Compile Include="Resources\Adaptor\ExpandedMenuModel.cs" />
     <Compile Include="Resources\Adaptor\MyCustomListAdapter.cs" />
-    <Compile Include="Resources\Adaptor\MyJazzyAdapter.cs" />
     <Compile Include="Resources\Adaptor\ViewHolder.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -143,9 +139,6 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\ListViewLayout.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\SwipeLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\UserRow.axml">
@@ -324,9 +317,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\image_microphone.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\assets\profiles.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

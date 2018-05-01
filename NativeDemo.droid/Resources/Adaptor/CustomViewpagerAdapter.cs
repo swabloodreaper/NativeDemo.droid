@@ -9,15 +9,14 @@ using Android.Runtime;
 using Android.Support.V4.App;
 using Android.Views;
 using Android.Widget;
-using Jazzy;
 
 namespace NativeDemo.droid.Resources.Adaptor
 {
-    class CustomViewpagerAdapter : JazzyPagerAdapter
+    class CustomViewpagerAdapter : FragmentPagerAdapter
     {
         List<Android.Support.V4.App.Fragment> fragments = new List<Android.Support.V4.App.Fragment>();
         List<string> fragmentTitles = new List<string>();
-        public CustomViewpagerAdapter(JazzyViewPager fm) : base(fm) { }
+        public CustomViewpagerAdapter(Android.Support.V4.App.FragmentManager fm) : base(fm) { }
 
         public void AddFragment(Android.Support.V4.App.Fragment fragment, String title)
         {
@@ -31,7 +30,7 @@ namespace NativeDemo.droid.Resources.Adaptor
                 return fragments.Count;
             }
         }
-        public  Android.Support.V4.App.Fragment GetItem(int position)
+        public override Android.Support.V4.App.Fragment GetItem(int position)
         {
             return fragments[position];
         }

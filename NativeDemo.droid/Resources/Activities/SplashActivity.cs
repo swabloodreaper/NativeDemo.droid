@@ -14,7 +14,7 @@ using Android.Widget;
 
 namespace NativeDemo.droid.Resources.Activities
 {
-    [Activity(Theme = "@style/MyTheme.Splash",Name ="MyDemo", MainLauncher = true, NoHistory = true,Icon = "@drawable/soundcopy")]
+    [Activity(Theme = "@style/MyTheme.Splash", MainLauncher = true, NoHistory = true,Icon = "@drawable/soundcopy")]
     public class SplashActivity : AppCompatActivity
     {
         static readonly string TAG = "X:" + typeof(SplashActivity).Name;

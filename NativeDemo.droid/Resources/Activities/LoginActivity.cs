@@ -23,12 +23,9 @@ namespace NativeDemo.droid.Resources.Activities
         public EditText Password;
         public Button btnLogin;
         public Button btnRegister;
-
-
         protected override void OnCreate(Bundle savedInstanceState)
         {
             RequestWindowFeature(WindowFeatures.NoTitle);
-
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.LoginLayout);
             Email = FindViewById<EditText>(Resource.Id.log_email);
@@ -56,7 +53,6 @@ namespace NativeDemo.droid.Resources.Activities
             btnLogin.Click -= OnLoginClick;
             btnRegister.Click -= Register_Click;
         }
-
         string old = "";
         private void Entry_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -74,7 +70,6 @@ namespace NativeDemo.droid.Resources.Activities
                 Validate_password();
             }
         }
-      
         private void Email_FocusChange(object sender, View.FocusChangeEventArgs e)
         {
             if (Email.HasFocus == false)
@@ -82,12 +77,10 @@ namespace NativeDemo.droid.Resources.Activities
                 Validate_Email();
             }
         }
-
         private void Register_Click(object sender, EventArgs e)
         {
             StartActivity(typeof(RegisterActivity));
         }
-
         private void OnLoginClick(object sender, EventArgs e)
         {
             if (!Validate())
@@ -135,18 +128,14 @@ namespace NativeDemo.droid.Resources.Activities
                     ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
                     ISharedPreferencesEditor editor = prefs.Edit();
                     editor.PutString("shared_Email", UserFind.Email);
+              
                     editor.PutString("shared_FName", UserFind.FirstName);
                     editor.Apply();
 
                     StartActivity(typeof(ListViewActivity));
                 }
             }
-
-
-
         }
-
-
         private bool Validate_Email()
         {
             var _email = Email.Text.ToString();
@@ -169,7 +158,6 @@ namespace NativeDemo.droid.Resources.Activities
             }
             return true;
         }
-
         private bool Validate()
         {
             var val_Email = Validate_Email();
@@ -180,7 +168,6 @@ namespace NativeDemo.droid.Resources.Activities
             }
             return false;
         }
-
         //public bool OnTouch(View v, MotionEvent e)
         //{
         //    switch (e.Action)
@@ -195,12 +182,8 @@ namespace NativeDemo.droid.Resources.Activities
         //    }
         //    return true;
         //}
-  
-
         //public void OnClick(View v)
         //{
-
-
         //}
     }
 }

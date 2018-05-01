@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeDemo.droid", "NativeDemo.droid\NativeDemo.droid.csproj", "{30F968E3-3399-4CA3-9171-E7D89BE975E8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NativeDemo", "NativeDemo\NativeDemo.csproj", "{9D2C2B40-A1FF-44FE-89F4-12C611275C4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeDemo", "NativeDemo\NativeDemo.csproj", "{9D2C2B40-A1FF-44FE-89F4-12C611275C4F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeDemo.iOS", "NativeDemo.iOS\NativeDemo.iOS.csproj", "{A6ACEF0C-846D-4F13-8740-69D8F0DB9FD4}"
 EndProject

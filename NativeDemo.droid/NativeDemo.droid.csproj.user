@@ -3,7 +3,7 @@
   <PropertyGroup>
     <SelectedDevice>Motorola MotoG3</SelectedDevice>
     <DefaultDevice>Android_Accelerated_x86_Nougat</DefaultDevice>
-    <AndroidDesignerPreferredDevice>pixel_c</AndroidDesignerPreferredDevice>
-    <ProjectView>ProjectFiles</ProjectView>
+    <AndroidDesignerPreferredDevice>Nexus 5</AndroidDesignerPreferredDevice>
+    <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
 </Project>
