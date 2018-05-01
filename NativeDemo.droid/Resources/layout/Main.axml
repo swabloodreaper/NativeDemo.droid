@@ -3,13 +3,18 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <include
-        android:id="@+id/main_toolbar"
-        layout="@layout/toolbar" />
-    <Button
-        android:text="Hello"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button1"
-        android:background="@drawable/mybutton" />
+  <include
+      android:id="@+id/main_toolbar"
+      layout="@layout/toolbar" />
+  <Button
+      android:text="Hello"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/button1"
+      android:background="@drawable/mybutton" />
+  <TextView android:text="Small Text"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/velocity_text_view" />
 </LinearLayout>

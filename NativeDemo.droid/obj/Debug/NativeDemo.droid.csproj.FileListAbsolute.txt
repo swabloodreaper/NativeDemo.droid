@@ -143,6 +143,7 @@ C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\NativeDemo.droid.dll
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\NativeDemo.droid.pdb
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\NativeDemo.droid.NativeDemo.droid.apk
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\NativeDemo.droid.NativeDemo.droid-Signed.apk
+C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\JazzyViewPager.dll
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\NativeDemo.dll
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\Refractored.Controls.CircleImageView.dll
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
@@ -169,6 +170,7 @@ C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\android\bin\NativeDemo.droid.
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\layout\loginlayout.xml
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\layout\registerlayout.xml
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\layout\listviewlayout.xml
+C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\layout\swipelayout.xml
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\layout\userrow.xml
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\layout\profilelayout.xml
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\layout\toolbar.xml
@@ -222,7 +224,6 @@ C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\drawable\microphone.png
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\res\drawable\image_microphone.jpg
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\R.cs.flag
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\uploadflags.txt
-C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\NativeDemo.droid.dll
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\Mono.Android.pdb
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\mscorlib.pdb
 C:\Git\NativeDemo.droid\NativeDemo.droid\bin\Debug\System.Core.pdb

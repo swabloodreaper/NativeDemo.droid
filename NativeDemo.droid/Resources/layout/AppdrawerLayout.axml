@@ -32,15 +32,22 @@
                 android:id="@+id/drawer_frame"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-                <android.support.v4.view.ViewPager
+                <!--<android.support.v4.view.ViewPager
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/drawer_viewPager" />
+                    android:id="@+id/drawer_viewPager" />-->
+              
+              <Jazzy.JazzyViewPager
+                  android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/drawer_jazzyViewPager" />
+              
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/frame_text"
                     android:gravity="center" />
+          
             </FrameLayout>
         </LinearLayout>
         <android.support.design.widget.NavigationView

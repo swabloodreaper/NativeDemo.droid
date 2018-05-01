@@ -34,8 +34,6 @@ namespace NativeDemo.droid.Resources.Activities
         public string City;
        
         #endregion
-   
- 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             RequestWindowFeature(WindowFeatures.NoTitle);
@@ -70,40 +68,27 @@ namespace NativeDemo.droid.Resources.Activities
             #region spinner city
             spinnerCity = FindViewById<Spinner>(Resource.Id.reg_spinnerCity);
             spinnerCity.ItemSelected += SpinnerCity_ItemSelected;
-            
             var adapter = ArrayAdapter.CreateFromResource(
             this, Resource.Array.spinnerCity, Resource.Layout.spinner_item);
-
             adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
             spinnerCity.Adapter = adapter;
             #endregion
         }
-
         private void SpinnerCity_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         {
-
             Spinner spinner = (Spinner)sender;
-      
-
-          //  string toast = string.Format("The City is {0}", spinner.GetItemAtPosition(e.Position));
-         //   Toast.MakeText(this, toast, ToastLength.Long).Show();
-
             City = spinner.GetItemAtPosition(e.Position).ToString();
         }
-
         string old = "";
         private void Entry_TextChanged(object sender, TextChangedEventArgs e)
         {
             var EText = sender as EditText;
             EText.SetSelection(EText.Text.Length);
             if (old.Equals(EText.Text))
-                return;
+            return;
             old = EText.Text;
             EText.Text = EText.Text.Replace(" ", "");
-
-
         }
-
         private void About_FocusChange(object sender, View.FocusChangeEventArgs e)
         {
             if (e.HasFocus == false)
@@ -111,7 +96,6 @@ namespace NativeDemo.droid.Resources.Activities
                 Validate_About();
             }
         }
-
         private void CPassword_FocusChange(object sender, View.FocusChangeEventArgs e)
         {
             if (e.HasFocus == false)
@@ -119,7 +103,6 @@ namespace NativeDemo.droid.Resources.Activities
                 Validate_CPassword();
             }
         }
-
         private void Password_FocusChange(object sender, View.FocusChangeEventArgs e)
         {
             if (e.HasFocus == false)
@@ -127,7 +110,6 @@ namespace NativeDemo.droid.Resources.Activities
                 Validate_Password();
             }
         }
-
         private void LastName_FocusChange(object sender, View.FocusChangeEventArgs e)
         {
             if (e.HasFocus == false)
@@ -135,7 +117,6 @@ namespace NativeDemo.droid.Resources.Activities
                 Validate_LastName();
             }
         }
-
         private void FirstName_FocusChange(object sender, View.FocusChangeEventArgs e)
         {
             if (e.HasFocus == false)
@@ -143,7 +124,6 @@ namespace NativeDemo.droid.Resources.Activities
                 Validate_FirstName();
             }
         }
-
         private void Email_FocusChange(object sender, View.FocusChangeEventArgs e)
         {
             if (e.HasFocus == false)
@@ -151,7 +131,6 @@ namespace NativeDemo.droid.Resources.Activities
                 Validate_Email();
             }
         }
-
         private void Login_Click(object sender, EventArgs e)
         {
             StartActivity(typeof(Resources.Activities.LoginActivity));
@@ -167,22 +146,15 @@ namespace NativeDemo.droid.Resources.Activities
             {
                 case MotionEventActions.Down:
                     DatePickerDialog dia = new DatePickerDialog(this, this, 1990, 0, 1);
-
                     dia.Show();
                     break;
-
                 default: return false;
             }
-
-
             return false;
         }
-
-
         private void OnCancel(object sender, EventArgs e)
         {
             Email.Text = string.Empty;
-
             Email.Error = null;
             FirstName.Text = string.Empty;
             FirstName.Error = null;
@@ -195,7 +167,6 @@ namespace NativeDemo.droid.Resources.Activities
             Dob.Text = string.Empty;
             About.Text = string.Empty;
             About.Error = null;
-
         }
 
         private void OnRegister(object sender, EventArgs e)
@@ -221,7 +192,6 @@ namespace NativeDemo.droid.Resources.Activities
                         return;
                     });
                     alert.Show();
-
                 }
                 else
                 if(CPassword.Text.Equals(Password.Text))
@@ -235,14 +205,11 @@ namespace NativeDemo.droid.Resources.Activities
                         About = About.Text.ToString(),
                         Dob = DobPicker.DateTime,
                         City = City
-                        
                     };
-
                     Repository.SaveOrUpdate(user);
                     AlertDialog.Builder dialog = new AlertDialog.Builder(this);
                     AlertDialog alert = dialog.Create();
                     alert.SetIcon(Resource.Drawable.sound);
-
                     alert.SetTitle("Success");
                     alert.SetMessage("User registered succesfully \n do you want to login");
                     alert.SetButton("Login", (s, ev) =>
@@ -255,7 +222,6 @@ namespace NativeDemo.droid.Resources.Activities
                         return;
                     });
                     alert.Show();
-
                 }
                 else
                 {
@@ -264,16 +230,12 @@ namespace NativeDemo.droid.Resources.Activities
                     alert.SetIcon(Resource.Drawable.sound);
                     alert.SetTitle("Pasword mismatch");
                     alert.SetMessage("Confirm password does not match with input password");
-                
                     alert.SetButton("ok", (s, ev) =>
                     {
                         return;
                     });
                     alert.Show();
-
                 }
-
-
             }
             catch(Exception ex)
             {
@@ -289,8 +251,6 @@ namespace NativeDemo.droid.Resources.Activities
             var val_Password = Validate_Password();
             var val_CPassword = Validate_CPassword();
             var val_About = Validate_About();
-
-
             if (val_FirstName && val_LastName && val_Email && val_Password && val_CPassword
                  && val_About)
             {
@@ -309,7 +269,6 @@ namespace NativeDemo.droid.Resources.Activities
             }
             return true;
         }
-
         private bool Validate_CPassword()
         {
             var _password = Password.Text.ToString();
@@ -326,7 +285,6 @@ namespace NativeDemo.droid.Resources.Activities
             }
             return true;
         }
-
         private bool Validate_Password()
         {
             var _password = Password.Text.ToString();
@@ -337,7 +295,6 @@ namespace NativeDemo.droid.Resources.Activities
             }
             return true;
         }
-
         private bool Validate_Email()
         {
             var _email = Email.Text.ToString();
@@ -348,7 +305,6 @@ namespace NativeDemo.droid.Resources.Activities
             }
             return true;
         }
-
         private bool Validate_LastName()
         {
             var _lastName = LastName.Text.ToString();
@@ -359,7 +315,6 @@ namespace NativeDemo.droid.Resources.Activities
             }
             return true;
         }
-
         private bool Validate_FirstName()
         {
             var _firstName = FirstName.Text.ToString();

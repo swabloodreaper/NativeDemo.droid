@@ -1,5 +1,6 @@
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\android\assets\NativeDemo.droid.dll
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\android\assets\Java.Interop.dll
+C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\android\assets\JazzyViewPager.dll
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\android\assets\Mono.Android.dll
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\android\assets\mscorlib.dll
 C:\Git\NativeDemo.droid\NativeDemo.droid\obj\Debug\android\assets\NativeDemo.dll

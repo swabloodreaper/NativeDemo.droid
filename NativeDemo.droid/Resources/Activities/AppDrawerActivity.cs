@@ -14,6 +14,7 @@ using Android.Content;
 using Android.Preferences;
 using NativeDemo.droid.Resources.Activities.Fragments;
 using Android.Support.V4.View;
+using Jazzy;
 
 namespace NativeDemo.droid.Resources.Activities
 {
@@ -44,10 +45,26 @@ namespace NativeDemo.droid.Resources.Activities
             menuAdapter = new ExpandableListAdapter(this, listDataHeader, listDataChild, expandableList);
             expandableList.SetAdapter(menuAdapter);
             //view pager
-            var viewPager = FindViewById<ViewPager>(Resource.Id.drawer_viewPager);
-            setupViewPager(viewPager);
+            //var viewPager = FindViewById<ViewPager>(Resource.Id.drawer_viewPager);
+           // setupViewPager(viewPager);
             var tabLayout = FindViewById<TabLayout>(Resource.Id.drawer_tabLayout);
-            tabLayout.SetupWithViewPager(viewPager);
+           // tabLayout.SetupWithViewPager(viewPager);
+            //jazzyViewPager
+            var jazzyViewPager = FindViewById<JazzyViewPager>(Resource.Id.drawer_jazzyViewPager);
+            tabLayout.SetupWithViewPager(jazzyViewPager);
+            jazzyViewPager.TransitionEffect = JazzyEffects.RotateUp;
+            setupJazzyViewPager(jazzyViewPager);
+
+        }
+
+        private void setupJazzyViewPager(JazzyViewPager jazzyViewPager)
+        {
+            var adapter = new CustomViewpagerAdapter(SupportFragmentManager);
+            adapter.AddFragment(new MainDrawerFragment(0), "First");
+            adapter.AddFragment(new MainDrawerFragment(1), "Second");
+            adapter.AddFragment(new MainDrawerFragment(2), "Third");
+            jazzyViewPager.Adapter = adapter;
+            jazzyViewPager.Adapter.NotifyDataSetChanged();
         }
 
         private void setupViewPager(ViewPager viewpager)
